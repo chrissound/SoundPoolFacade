@@ -11,7 +11,7 @@ Should work on Android V2.3+
 
 ## Example of usage:
 
-``
+```
 AssetManager assetManager = getActivity().getAssets();
 AssetFileDescriptor soundTest = assetManager.openFd("soundTest.wav");
 AssetFileDescriptor soundTest2 = assetManager.openFd("soundTest2.wav");
@@ -30,4 +30,4 @@ audioPlayer.play("soundTest2", true, 1.0f);
 audioPlayer.stopAll();
 
 audioPlayer.release();
-``
+```
